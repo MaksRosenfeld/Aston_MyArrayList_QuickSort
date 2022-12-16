@@ -6,6 +6,8 @@ import java.util.*;
 import java.util.stream.Stream;
 
 /**
+ * Основные поля с размером, массивом и размером массива по умолчанию.
+ * 3 перегруженных конструктора.
  * @param <E>
  * @author Max Duyko
  */

@@ -42,7 +42,7 @@ public class MyArrayListTest {
     @Test
     public void removeElement() throws NoSuchFieldException, IllegalAccessException {
         myList.remove((Object) 6);
-        myList.remove((Object) 2); // элемент с индексом 0
+        myList.remove((Object) 9); // элемент с индексом 0
         assertFalse(myList.remove((Object) 37)); // нет в листе
         assertEquals(4, myList.size());
     }
